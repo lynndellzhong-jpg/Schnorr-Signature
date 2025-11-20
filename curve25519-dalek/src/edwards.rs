@@ -454,7 +454,7 @@ impl Zeroize for CompressedEdwardsY {
         self.0[0] = 1;
     }
 }
-// lynndell
+
 #[cfg(feature = "zeroize")]
 impl Zeroize for EdwardsPoint {
     /// Reset this `EdwardsPoint` to the identity element.
