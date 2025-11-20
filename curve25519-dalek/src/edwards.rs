@@ -395,7 +395,8 @@ pub struct EdwardsPoint {
 }
 
 // ------------------------------------------------------------------------
-// Constructors
+// Constructors signature
+// ed25515
 // ------------------------------------------------------------------------
 
 impl Identity for CompressedEdwardsY {
